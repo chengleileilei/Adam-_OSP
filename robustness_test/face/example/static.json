@@ -1,0 +1,1070 @@
+{
+    "MobileFaceNet": {
+        "MobileFaceNet": {
+            "DIM": {
+                "lfw": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2986,
+                                "negative": 14
+                            },
+                            "adversarial": {
+                                "positive": 2618,
+                                "negative": 382
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2986,
+                                "negative": 14
+                            },
+                            "adversarial": {
+                                "positive": 59,
+                                "negative": 2941
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2986,
+                                "negative": 14
+                            },
+                            "adversarial": {
+                                "positive": 0,
+                                "negative": 3000
+                            }
+                        }
+                    }
+                },
+                "cfp_fp": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2344,
+                                "negative": 1156
+                            },
+                            "adversarial": {
+                                "positive": 653,
+                                "negative": 2847
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2344,
+                                "negative": 1156
+                            },
+                            "adversarial": {
+                                "positive": 1,
+                                "negative": 3499
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2344,
+                                "negative": 1156
+                            },
+                            "adversarial": {
+                                "positive": 0,
+                                "negative": 3500
+                            }
+                        }
+                    }
+                },
+                "agedb_30": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2816,
+                                "negative": 184
+                            },
+                            "adversarial": {
+                                "positive": 1313,
+                                "negative": 1687
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2816,
+                                "negative": 184
+                            },
+                            "adversarial": {
+                                "positive": 0,
+                                "negative": 3000
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2816,
+                                "negative": 184
+                            },
+                            "adversarial": {
+                                "positive": 0,
+                                "negative": 3000
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "GhostNet": {
+            "DIM": {
+                "lfw": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2986,
+                                "negative": 14
+                            },
+                            "adversarial": {
+                                "positive": 2957,
+                                "negative": 43
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2986,
+                                "negative": 14
+                            },
+                            "adversarial": {
+                                "positive": 1923,
+                                "negative": 1077
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2986,
+                                "negative": 14
+                            },
+                            "adversarial": {
+                                "positive": 298,
+                                "negative": 2702
+                            }
+                        }
+                    }
+                },
+                "cfp_fp": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2344,
+                                "negative": 1156
+                            },
+                            "adversarial": {
+                                "positive": 1949,
+                                "negative": 1551
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2344,
+                                "negative": 1156
+                            },
+                            "adversarial": {
+                                "positive": 656,
+                                "negative": 2844
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2344,
+                                "negative": 1156
+                            },
+                            "adversarial": {
+                                "positive": 89,
+                                "negative": 3411
+                            }
+                        }
+                    }
+                },
+                "agedb_30": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2816,
+                                "negative": 184
+                            },
+                            "adversarial": {
+                                "positive": 2491,
+                                "negative": 509
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2816,
+                                "negative": 184
+                            },
+                            "adversarial": {
+                                "positive": 657,
+                                "negative": 2343
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2816,
+                                "negative": 184
+                            },
+                            "adversarial": {
+                                "positive": 31,
+                                "negative": 2969
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "TF-NAS": {
+            "DIM": {
+                "lfw": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2986,
+                                "negative": 14
+                            },
+                            "adversarial": {
+                                "positive": 2949,
+                                "negative": 51
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2986,
+                                "negative": 14
+                            },
+                            "adversarial": {
+                                "positive": 1657,
+                                "negative": 1343
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2986,
+                                "negative": 14
+                            },
+                            "adversarial": {
+                                "positive": 164,
+                                "negative": 2836
+                            }
+                        }
+                    }
+                },
+                "cfp_fp": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2344,
+                                "negative": 1156
+                            },
+                            "adversarial": {
+                                "positive": 1874,
+                                "negative": 1626
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2344,
+                                "negative": 1156
+                            },
+                            "adversarial": {
+                                "positive": 488,
+                                "negative": 3012
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2344,
+                                "negative": 1156
+                            },
+                            "adversarial": {
+                                "positive": 57,
+                                "negative": 3443
+                            }
+                        }
+                    }
+                },
+                "agedb_30": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2816,
+                                "negative": 184
+                            },
+                            "adversarial": {
+                                "positive": 2430,
+                                "negative": 570
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2816,
+                                "negative": 184
+                            },
+                            "adversarial": {
+                                "positive": 466,
+                                "negative": 2534
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2816,
+                                "negative": 184
+                            },
+                            "adversarial": {
+                                "positive": 14,
+                                "negative": 2986
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GhostNet": {
+        "MobileFaceNet": {
+            "DIM": {
+                "lfw": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2989,
+                                "negative": 11
+                            },
+                            "adversarial": {
+                                "positive": 2971,
+                                "negative": 29
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2989,
+                                "negative": 11
+                            },
+                            "adversarial": {
+                                "positive": 2165,
+                                "negative": 835
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2989,
+                                "negative": 11
+                            },
+                            "adversarial": {
+                                "positive": 464,
+                                "negative": 2536
+                            }
+                        }
+                    }
+                },
+                "cfp_fp": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2369,
+                                "negative": 1131
+                            },
+                            "adversarial": {
+                                "positive": 1985,
+                                "negative": 1515
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2369,
+                                "negative": 1131
+                            },
+                            "adversarial": {
+                                "positive": 777,
+                                "negative": 2723
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2369,
+                                "negative": 1131
+                            },
+                            "adversarial": {
+                                "positive": 152,
+                                "negative": 3348
+                            }
+                        }
+                    }
+                },
+                "agedb_30": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2817,
+                                "negative": 183
+                            },
+                            "adversarial": {
+                                "positive": 2526,
+                                "negative": 474
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2817,
+                                "negative": 183
+                            },
+                            "adversarial": {
+                                "positive": 755,
+                                "negative": 2245
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2817,
+                                "negative": 183
+                            },
+                            "adversarial": {
+                                "positive": 60,
+                                "negative": 2940
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "GhostNet": {
+            "DIM": {
+                "lfw": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2989,
+                                "negative": 11
+                            },
+                            "adversarial": {
+                                "positive": 2737,
+                                "negative": 263
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2989,
+                                "negative": 11
+                            },
+                            "adversarial": {
+                                "positive": 149,
+                                "negative": 2851
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2989,
+                                "negative": 11
+                            },
+                            "adversarial": {
+                                "positive": 0,
+                                "negative": 3000
+                            }
+                        }
+                    }
+                },
+                "cfp_fp": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2369,
+                                "negative": 1131
+                            },
+                            "adversarial": {
+                                "positive": 784,
+                                "negative": 2716
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2369,
+                                "negative": 1131
+                            },
+                            "adversarial": {
+                                "positive": 0,
+                                "negative": 3500
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2369,
+                                "negative": 1131
+                            },
+                            "adversarial": {
+                                "positive": 0,
+                                "negative": 3500
+                            }
+                        }
+                    }
+                },
+                "agedb_30": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2817,
+                                "negative": 183
+                            },
+                            "adversarial": {
+                                "positive": 1388,
+                                "negative": 1612
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2817,
+                                "negative": 183
+                            },
+                            "adversarial": {
+                                "positive": 1,
+                                "negative": 2999
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2817,
+                                "negative": 183
+                            },
+                            "adversarial": {
+                                "positive": 0,
+                                "negative": 3000
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "TF-NAS": {
+            "DIM": {
+                "lfw": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2989,
+                                "negative": 11
+                            },
+                            "adversarial": {
+                                "positive": 2963,
+                                "negative": 37
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2989,
+                                "negative": 11
+                            },
+                            "adversarial": {
+                                "positive": 1792,
+                                "negative": 1208
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2989,
+                                "negative": 11
+                            },
+                            "adversarial": {
+                                "positive": 214,
+                                "negative": 2786
+                            }
+                        }
+                    }
+                },
+                "cfp_fp": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2369,
+                                "negative": 1131
+                            },
+                            "adversarial": {
+                                "positive": 1876,
+                                "negative": 1624
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2369,
+                                "negative": 1131
+                            },
+                            "adversarial": {
+                                "positive": 521,
+                                "negative": 2979
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2369,
+                                "negative": 1131
+                            },
+                            "adversarial": {
+                                "positive": 58,
+                                "negative": 3442
+                            }
+                        }
+                    }
+                },
+                "agedb_30": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2817,
+                                "negative": 183
+                            },
+                            "adversarial": {
+                                "positive": 2437,
+                                "negative": 563
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2817,
+                                "negative": 183
+                            },
+                            "adversarial": {
+                                "positive": 487,
+                                "negative": 2513
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2817,
+                                "negative": 183
+                            },
+                            "adversarial": {
+                                "positive": 11,
+                                "negative": 2989
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "TF-NAS": {
+        "MobileFaceNet": {
+            "DIM": {
+                "lfw": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2990,
+                                "negative": 10
+                            },
+                            "adversarial": {
+                                "positive": 2978,
+                                "negative": 22
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2990,
+                                "negative": 10
+                            },
+                            "adversarial": {
+                                "positive": 2058,
+                                "negative": 942
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2990,
+                                "negative": 10
+                            },
+                            "adversarial": {
+                                "positive": 331,
+                                "negative": 2669
+                            }
+                        }
+                    }
+                },
+                "cfp_fp": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2591,
+                                "negative": 909
+                            },
+                            "adversarial": {
+                                "positive": 2278,
+                                "negative": 1222
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2591,
+                                "negative": 909
+                            },
+                            "adversarial": {
+                                "positive": 979,
+                                "negative": 2521
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2591,
+                                "negative": 909
+                            },
+                            "adversarial": {
+                                "positive": 175,
+                                "negative": 3325
+                            }
+                        }
+                    }
+                },
+                "agedb_30": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2867,
+                                "negative": 133
+                            },
+                            "adversarial": {
+                                "positive": 2638,
+                                "negative": 362
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2867,
+                                "negative": 133
+                            },
+                            "adversarial": {
+                                "positive": 847,
+                                "negative": 2153
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2867,
+                                "negative": 133
+                            },
+                            "adversarial": {
+                                "positive": 55,
+                                "negative": 2945
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "GhostNet": {
+            "DIM": {
+                "lfw": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2990,
+                                "negative": 10
+                            },
+                            "adversarial": {
+                                "positive": 2976,
+                                "negative": 24
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2990,
+                                "negative": 10
+                            },
+                            "adversarial": {
+                                "positive": 1914,
+                                "negative": 1086
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2990,
+                                "negative": 10
+                            },
+                            "adversarial": {
+                                "positive": 228,
+                                "negative": 2772
+                            }
+                        }
+                    }
+                },
+                "cfp_fp": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2591,
+                                "negative": 909
+                            },
+                            "adversarial": {
+                                "positive": 2228,
+                                "negative": 1272
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2591,
+                                "negative": 909
+                            },
+                            "adversarial": {
+                                "positive": 864,
+                                "negative": 2636
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2591,
+                                "negative": 909
+                            },
+                            "adversarial": {
+                                "positive": 104,
+                                "negative": 3396
+                            }
+                        }
+                    }
+                },
+                "agedb_30": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2867,
+                                "negative": 133
+                            },
+                            "adversarial": {
+                                "positive": 2623,
+                                "negative": 377
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2867,
+                                "negative": 133
+                            },
+                            "adversarial": {
+                                "positive": 720,
+                                "negative": 2280
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2867,
+                                "negative": 133
+                            },
+                            "adversarial": {
+                                "positive": 29,
+                                "negative": 2971
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "TF-NAS": {
+            "DIM": {
+                "lfw": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2990,
+                                "negative": 10
+                            },
+                            "adversarial": {
+                                "positive": 2830,
+                                "negative": 170
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2990,
+                                "negative": 10
+                            },
+                            "adversarial": {
+                                "positive": 108,
+                                "negative": 2892
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2990,
+                                "negative": 10
+                            },
+                            "adversarial": {
+                                "positive": 0,
+                                "negative": 3000
+                            }
+                        }
+                    }
+                },
+                "cfp_fp": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2591,
+                                "negative": 909
+                            },
+                            "adversarial": {
+                                "positive": 1212,
+                                "negative": 2288
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2591,
+                                "negative": 909
+                            },
+                            "adversarial": {
+                                "positive": 2,
+                                "negative": 3498
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2591,
+                                "negative": 909
+                            },
+                            "adversarial": {
+                                "positive": 0,
+                                "negative": 3500
+                            }
+                        }
+                    }
+                },
+                "agedb_30": {
+                    "1": {
+                        "10": {
+                            "clean": {
+                                "positive": 2867,
+                                "negative": 133
+                            },
+                            "adversarial": {
+                                "positive": 1765,
+                                "negative": 1235
+                            }
+                        }
+                    },
+                    "4": {
+                        "10": {
+                            "clean": {
+                                "positive": 2867,
+                                "negative": 133
+                            },
+                            "adversarial": {
+                                "positive": 4,
+                                "negative": 2996
+                            }
+                        }
+                    },
+                    "8": {
+                        "10": {
+                            "clean": {
+                                "positive": 2867,
+                                "negative": 133
+                            },
+                            "adversarial": {
+                                "positive": 0,
+                                "negative": 3000
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
