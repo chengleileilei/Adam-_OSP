@@ -15,7 +15,7 @@
 			<div class="introduction_area">
 				<div class="top">
 					<div class="title">人脸对抗</div>
-					<div class="contact"><el-button type="info" plain>联系我们</el-button></div>
+					<!-- <div class="contact"><el-button type="info" plain>联系我们</el-button></div> -->
 				</div>
 
 				<div class="footer">
