@@ -70,10 +70,25 @@
 				</div>
 				<div class="content-top">
 					<div class="pic_left">
-						<div class="block">
+						<div class="block upload-wrap">
 							<el-upload
+								:class="{ hide: photoHide }"
 								:action="uploadImage"
-								:limit="2"
+								:limit="picCount"
+								:file-list="fileList"
+								:on-exceed="handleExceed"
+								:on-success="handleSuccess"
+								:on-remove="handleRemove"
+								:before-upload="beforeUpload"
+								accept=".jpg, .jpeg, .png, .gif, .bmp"
+								list-type="picture-card"
+							>
+								<i class="el-icon-plus"></i>
+							</el-upload>
+							<el-upload
+								:class="{ hide: photoHide }"
+								:action="uploadImage"
+								:limit="picCount"
 								:file-list="fileList"
 								:on-exceed="handleExceed"
 								:on-success="handleSuccess"
@@ -182,13 +197,16 @@ export default {
 	name: 'menu11',
 	data() {
 		return {
+			photoHide: false, //用来控制图片上传成功后隐藏上传按钮
+			picCount: 1, //可以上传的图片数量
 			val: '',
 			dialogImageUrl: '',
 			imgVisible: false,
 			resultVisible: false,
 			testSrcResult: 'https://pdb-wrl.oss-cn-beijing.aliyuncs.com/c0e0b4a5-e0f8-40ea-9624-15fa8e885302.jpg',
-			testSrc1:'https://pdb-wrl.oss-cn-beijing.aliyuncs.com/45a31851-58b4-46c6-8516-d0bcc228e346.jpg',
-			testSrc2:'https://pdb-wrl.oss-cn-beijing.aliyuncs.com/algorithm/src%3Dhttp___static.lieyunwang.com_upload2_file_201812_1546067107161558.jpg%26refer%3Dhttp___static.lieyunwang%20%281%29.png',
+			testSrc1: 'https://pdb-wrl.oss-cn-beijing.aliyuncs.com/45a31851-58b4-46c6-8516-d0bcc228e346.jpg',
+			testSrc2:
+				'https://pdb-wrl.oss-cn-beijing.aliyuncs.com/algorithm/src%3Dhttp___static.lieyunwang.com_upload2_file_201812_1546067107161558.jpg%26refer%3Dhttp___static.lieyunwang%20%281%29.png',
 			titleSrc: 'https://pdb-wrl.oss-cn-beijing.aliyuncs.com/algorithm/v2-801108ef77f34644d615e31cfd590e2b_r.jpg',
 			src: '',
 			fileList: [],
@@ -256,6 +274,8 @@ export default {
 		},
 		beforeUpload(file) {
 			//上传图片前
+			this.driverTruckHide = this.driverTruckList.length + 1 >= this.picCount; //图片上传成功隐藏上传按钮
+
 			const isLt2M = file.size / 1024 / 1024 < 2;
 			if (!isLt2M) {
 				this.$message.error('图片大小不能超过 2MB!');
@@ -276,6 +296,7 @@ export default {
 		handleRemove(file, fileList) {
 			//移除图片
 			this.fileList = [];
+			this.driverTruckHide = fileList.length >= this.picCount; //删除图片 恢复上传按钮
 		},
 	},
 };
@@ -343,6 +364,15 @@ export default {
 			}
 		}
 	}
+	.upload-wrap {
+		display: flex;
+		flex-direction: row;
+	}
+	.hide {
+    ::v-deep .el-upload--picture-card {
+      display: none;
+    }
+  }
 	.content {
 		display: flex;
 		flex: 7;

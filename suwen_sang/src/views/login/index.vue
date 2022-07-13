@@ -139,7 +139,9 @@ export default {
 		},
 		// 登录按钮点击
 		submitForm() {
-			this.submit.loading = true;
+							// window.location.href = `${window.location.origin}${window.location.pathname}`;
+
+			// this.submit.loading = true;
 			setTimeout(() => {
 				let defaultRoles = [];
 				let defaultAuthBtnList = [];

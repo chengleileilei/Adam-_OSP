@@ -15,7 +15,7 @@
 			<div class="introduction_area">
 				<div class="top">
 					<div class="title">人脸对抗</div>
-					<div class="contact"><el-button type="info" plain>联系我们</el-button></div>
+					<!-- <div class="contact"><el-button type="info" plain>联系我们</el-button></div> -->
 				</div>
 
 				<div class="footer">
@@ -73,10 +73,25 @@
 				</div>
 				<div class="content-top">
 					<div class="pic_left">
-						<div class="block">
+						<div class="block upload-wrap">
 							<el-upload
+								:class="{ hide: photoHide }"
 								:action="uploadImage"
-								:limit="2"
+								:limit="picCount"
+								:file-list="fileList"
+								:on-exceed="handleExceed"
+								:on-success="handleSuccess"
+								:on-remove="handleRemove"
+								:before-upload="beforeUpload"
+								accept=".jpg, .jpeg, .png, .gif, .bmp"
+								list-type="picture-card"
+							>
+								<i class="el-icon-plus"></i>
+							</el-upload>
+							<el-upload
+								:class="{ hide: photoHide }"
+								:action="uploadImage"
+								:limit="picCount"
 								:file-list="fileList"
 								:on-exceed="handleExceed"
 								:on-success="handleSuccess"
@@ -342,6 +357,10 @@ export default {
 				}
 			}
 		}
+	}
+		.upload-wrap {
+		display: flex;
+		flex-direction: row;
 	}
 	.content {
 		display: flex;
