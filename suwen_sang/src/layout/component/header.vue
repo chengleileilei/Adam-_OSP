@@ -15,7 +15,7 @@ export default {
 	computed: {
 		// 设置顶部 header 的具体高度
 		setHeaderHeight() {
-			return '50px';
+			// return '50px';
 			let { isTagsview, layout } = this.$store.state.themeConfig.themeConfig;
 			if (isTagsview && layout !== 'classic') return '84px';
 			else return '50px';

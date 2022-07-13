@@ -20,28 +20,28 @@ import request from '@/utils/request';
 
 // 获取后端动态路由菜单(超级管理)
 export function getMenuAdmin() {
-	// 本地数据，路径：`/public/xxx.json`
-	return request({
-		url: '/face/getMenuAdmin',
-		method: 'get',
-	});
-	// 模拟跨域
-	// return request({
-	// 	url: '/gitee/lyt-top/vue-next-admin-images/raw/master/vue2/admin.json',
-	// 	method: 'get',
-	// });
+    // 本地数据，路径：`/public/xxx.json`
+    return request({
+        url: '/face/getMenuAdmin',
+        method: 'get',
+    });
+    // 模拟跨域
+    // return request({
+    // 	url: '/gitee/lyt-top/vue-next-admin-images/raw/master/vue2/admin.json',
+    // 	method: 'get',
+    // });
 }
 
 // 获取后端动态路由菜单(普通用户)
 export function getMenuTest() {
-	// 本地数据，路径：`/public/xxx.json`
-	return request({
-		url: '/face/getMenuAdmin',
-		method: 'get',
-	});
-	// 模拟跨域
-	// return request({
-	// 	url: '/gitee/lyt-top/vue-next-admin-images/raw/master/vue2/test.json',
-	// 	method: 'get',
-	// });
+    // 本地数据，路径：`/public/xxx.json`
+    return request({
+        url: '/face/getMenuAdmin',
+        method: 'get',
+    });
+    // 模拟跨域
+    // return request({
+    // 	url: '/gitee/lyt-top/vue-next-admin-images/raw/master/vue2/test.json',
+    // 	method: 'get',
+    // });
 }
